@@ -4,7 +4,6 @@ import Main from './Components/MainComponent';
 import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 
-
 //import { ConfigureStore } from './redux/configureStore';
 
 //const store = ConfigureStore();
@@ -12,10 +11,10 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
-       <div className="App">
-          <Main />
-       </div>
-     </BrowserRouter>
+      <div className='App'>
+        <Main />
+      </div>
+    </BrowserRouter>
   );
 }
 
